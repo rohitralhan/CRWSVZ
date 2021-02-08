@@ -14,7 +14,7 @@ cat codeready-workspaces-operator-sub.yaml | sed -e "s/namespace-placeholder/$PR
 
 # This seems to be needed to allow the API of Che resources/CRDs to be available in the cluster.
 echo "Wait for the Operator to be installed."
-sleep 10
+sleep 40
 
 # Create Che Cluster
 echo "Creating CodeRe   ady Workspaces cluster."
